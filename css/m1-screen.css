@@ -158,8 +158,8 @@ div.dokuwiki button.button {
 
 /* Admin Mode Tweaks
 *********************************************/
-.mode_admin #dokuwiki__content {width: 80%; max-width: 80%}
-.mode_admin #dokuwiki__aside {width: 18%}
+.mode_admin #dokuwiki__content {width: 100%; max-width: 100%}
+.mode_admin #dokuwiki__aside {display: none;}
 
 
 

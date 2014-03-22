@@ -42,7 +42,7 @@ if (!defined('DOKU_INC')) die();
         <div id="m1-menu"> <!--Menu displayed for tablet and desktop viewing, hidden on phone size -->
       		<ul>
      			<li><a href='#'>Portfolio</a></li>
-     			<li class='has-sub m1-desktop'><a href='#'>Products</a> <!--Hidden on tablet d/t m1-desktop class -->
+     			<li class='has-sub m1-desktop'><a href='#'>Products</a> <!--Hidden on tablet due to m1-desktop class -->
        				 <ul>
                  		<li><a href='#'>Sub 1</a></li>
                  		<li><a href='#'>Sub 2</a></li>

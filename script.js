@@ -311,6 +311,7 @@
 
 })( jQuery );
 
+/* Initiating Sidr */
 jQuery(document).ready(function($) {
   $('#m1-menu-ltrig').sidr({
       name: 'm1-menu-left',
@@ -325,6 +326,7 @@ jQuery(document).ready(function($) {
        onOpen: function(){$("#dokuwiki__header").css( "left", "-260px");}
     });
     
+/*Setting up search box to hide/appear on click */
     $("#m1-search").hide();
     $("#m1-menu-strig").click(function(){
     	$("#m1-search").slideToggle();
